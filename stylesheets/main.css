@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.style-img {
+  border-radius: 20px;
+  border: solid #777 7px;
+  transform: rotate(-15deg);
+  box-sizing: content-box;
+}
+
+.fill-row {
+  grid-column: 1/-1;
+}
+
+.fill-row-link {
+  text-align: center;
+}
+
+.flex-v,
+.flex-h {
+  display: flex;
+}
+
+.flex-v {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.back-color-1 {
+  background-color: #2e2e2e;
+}
+
+.back-color-2 {
+  background-color: #555;
+}
+
+.back-color-3 {
+  background-color: #747474;
+}
+
+.back-color-4 {
+  background-color: #858585;
+}
+
+.back-color-5 {
+  background-color: #fff;
+}
+
+body {
+  width: 100%;
+  min-width: 980px;
+  font-family: "Spectral", serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.logo {
+  height: 100px;
+  margin: 20px 0 0 20px;
+  background-color: transparent;
+}
+
+.nav-items {
+  text-align: center;
+}
+
+.latest-posts-item p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 0 80px;
+  line-height: 32px;
+}
+
+.l-p-i-fourth p {
+  margin: 40px 0 0 0;
+  text-align: center;
+  line-height: 33px;
+}
+
+.smashing-title p {
+  font-size: 44px;
+  line-height: 53px;
+}
+
+.handbook p {
+  font-size: 25px;
+  margin: 0 25%;
+  line-height: 40px;
+}
+
+.c-l-first p {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.community-link-normal p {
+  font-size: 19px;
+  width: 90%;
+  line-height: 32px;
+}
+
+.smashing-book p {
+  font-size: 20px;
+  margin: 20px auto 60px;
+  line-height: 33px;
+}
+
+.newsletter p {
+  font-size: 20px;
+  line-height: 23px;
+  width: 60%;
+  margin: 0 auto 50px;
+}
+
+.nav-items a p {
+  color: #fff;
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.top-continer-items img {
+  height: 75px;
+  float: left;
+  margin-right: 20px;
+}
+
+.l-p-i-fourth img {
+  height: 250px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.handbook img {
+  position: relative;
+  bottom: 0;
+}
+
+.c-l-first img {
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+}
+
+.community-link-normal img {
+  height: 70px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.smashing-book img {
+  float: right;
+  width: 256px;
+  height: 373px;
+}
+
+.newsletter img {
+  height: 500px;
+}
+
+.nav-items a img {
+  height: 45px;
+  margin-top: 20px;
+}
+
+.nav-items h2 {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav-btn {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.nav-btn div {
+  background-color: transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border: 2px #000 solid;
+  border-radius: 5px;
+}
+
+.top-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px 500px;
+  grid-auto-flow: column;
+  background-color: red;
+}
+
+.top-continer-items {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.wider-top-space {
+  padding-top: 150px;
+}
+
+.latest-articles {
+  position: relative;
+  top: 0;
+  height: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.latest-articles h1 {
+  margin: 0 auto;
+  width: 324px;
+  color: #fff;
+  border: solid #333 10px;
+}
+
+.name {
+  float: left;
+  margin-right: 2px;
+}
+
+.article-title {
+  margin-top: 100px;
+}
+
+.article-title h2 {
+  font-size: 60px;
+}
+
+.article-title span {
+  display: inline;
+  font-size: 25px;
+  position: relative;
+  top: -10px;
+}
+
+.article-tags {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.article-tags h4::before {
+  content: "#";
+}
+
+.article-tags sup {
+  vertical-align: super;
+}
+
+.membership {
+  height: 200px;
+}
+
+.latest-posts {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 550px 750px 750px 150px;
+}
+
+.latest-posts-item {
+  padding: 50px;
+  color: #000;
+  font-size: 15px;
+}
+
+footer a {
+  color: #fff;
+}
+
+.community-link a,
+.latest-posts-item a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.l-p-i-fourth a {
+  color: #fff;
+}
+
+.fill-row-link a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.community-link a {
+  color: #000;
+  padding-top: 30px;
+}
+
+.c-l-first a {
+  color: #000;
+}
+
+.latest-posts-item span a {
+  font-size: 15px;
+}
+
+.latest-posts-item-heading {
+  font-size: 25px;
+  margin: 20px 0 20px;
+  line-height: 33px;
+}
+
+.latest-posts-item span {
+  font-size: 17px;
+}
+
+.latest-posts-item::after {
+  content: "→";
+}
+
+.l-p-i-fourth {
+  color: #fff;
+}
+
+.smashing-title {
+  padding-top: 200px;
+}
+
+.utility-button {
+  background-color: red;
+  height: 50px;
+  border-color: transparent;
+  border-radius: 10px;
+  margin: 20px auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px;
+}
+
+p.l-p-i-fourth-last {
+  margin: 0;
+}
+
+.l-p-i-fourth::after {
+  content: "";
+}
+
+.handbook {
+  width: 100%;
+  height: 1100px;
+  color: #fff;
+  text-align: center;
+}
+
+.handbook header {
+  padding: 20px 0;
+  font-size: 1.1em;
+}
+
+.curated-post span {
+  line-height: 19px;
+  font-size: 16px;
+}
+
+.handbook header span {
+  margin: 20px auto;
+  font-size: 16px;
+}
+
+.handbook h2 {
+  padding: 20px 0;
+  font-size: 53px;
+}
+
+.handbook header p {
+  font-size: 48px;
+}
+
+.handbook button {
+  left: 0;
+  transform: translateX(0);
+  display: block;
+}
+
+.community-links {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: auto repeat(3, 370px) 100px;
+}
+
+.community-link {
+  background-color: #fff;
+  padding-top: 35px;
+}
+
+.c-l-first {
+  padding: 50px 60px 0 100px;
+}
+
+.c-l-first div {
+  padding-left: 50px;
+}
+
+.c-l-first h2 {
+  padding-bottom: 50px;
+  font-size: 19px;
+}
+
+.community-link-normal {
+  padding-left: 50px;
+}
+
+.community-link-normal h2 {
+  font-size: 32px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 80%;
+}
+
+.smashing-book {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+
+.smashing-book h2 {
+  font-size: 50px;
+  margin: 20px auto;
+}
+
+.smashing-book-text {
+  width: 50%;
+  padding: 30px auto 0;
+  margin-right: auto;
+}
+
+.smashing-button {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: red;
+  font-size: 23px;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 638px 880px 100px;
+  grid-gap: 10px;
+}
+
+.curated-post {
+  padding: 60px;
+}
+
+.curated-post h2 {
+  margin-bottom: 26px;
+  font-size: 27px;
+  line-height: 33px;
+}
+
+footer li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+footer ul {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.curated-post ul {
+  list-style: none;
+  list-style-image: url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg");
+  padding-left: 50px;
+}
+
+.curated-post li {
+  font-size: 22px;
+  line-height: 33px;
+  padding: 10px 0;
+}
+
+.curated-post li::before {
+  content: "";
+}
+
+.newsletter {
+  grid-column: 2/-1;
+  text-align: center;
+}
+
+.newsletter h2 {
+  line-height: 52px;
+  font-size: 43px;
+}
+
+.input-container {
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.input-container input {
+  line-height: 29px;
+  border: 0;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  width: 70%;
+}
+
+.input-container button {
+  width: 30%;
+  border-radius: 0 10px 10px 0;
+}
+
+footer {
+  background-color: #fff;
+  height: auto;
+  text-align: center;
+  background-image:
+    url("https://d33wubrfki0l68.cloudfront.net/a30570bfa3e70a8de5e35c535522900d32d9f301/6c59a/images/footer/laptop__left.svg"),
+    url("https://d33wubrfki0l68.cloudfront.net/d397e7a1b0a5401f19e97ecb9829ee61baadf3ed/9f677/images/smashing-cat/cat-the-behemoth.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 20% 80%, 80% 80%;
+  background-size: 11em auto, 14em auto;
+}
+
+footer h4 {
+  margin: 0 auto 60px;
+  padding-top: 60px;
+}
+
+.footer-notes {
+  line-height: 28px;
+}
+
+.footer-links {
+  margin: 20px auto;
+  width: 40%;
+  font-size: 16px;
+}
