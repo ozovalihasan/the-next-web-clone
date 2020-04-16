@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  div {
+    height: 20%;
+  }
+
+  body {
+    background-color: red;
+    height: 100vh;
+  }
+
+  nav {
+    height: 20%;
+    background-color: purple;
+  }
+
+  main {
+    height: 20%;
+    background-color: orange;
+  }
+
+  .cover {
+    background-color: blue;
+  }
+
+  .latest {
+    background-color: green;
+  }
+
+  .deals {
+    background-color: brown;
+  }
+
+  .populars {
+    background-color: cyan;
+  }
+
+  .latest-deals {
+    background-color: coral;
+  }
+
+  footer {
+    height: 20%;
+    background-color: yellow;
+  }
+
+  .footer-links {
+    background-color: chartreuse;
+  }
+
+  .footer-legals {
+    background-color: cornflowerblue;
+  }
+}
