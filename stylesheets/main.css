@@ -188,13 +188,26 @@ main {
 .deals {
   height: auto;
   grid-template-columns: 100%;
-  grid-template-rows: 100px repeat(3, 150px);
+  grid-template-rows: auto repeat(3, 150px);
   background-color: brown;
   grid-gap: 20px;
 }
 
 .deals-titles {
   background-color: turquoise;
+}
+
+.deals-subtitles p{
+  color: #f42;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.deals-title {
+  font-size: 28px;
+  color: #f42;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .deal-item {
