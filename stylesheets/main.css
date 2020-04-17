@@ -1,163 +1,204 @@
-.grid {
-  display: grid;
-}
-
-.hide {
-  display: none;
-}
-
-body {
-  background-color: red;
-  height: 100vh;
-  font-size: 30px;
-}
-
-nav {
-  width: 100%;
-  height: auto;
-  grid-template-columns: 110px auto 70px 70px;
-  grid-template-rows: 100px;
-  background-color: yellow;
-}
-
-.icon {
-  background-color: blueviolet;
-}
-
-.nav-menu {
-  background-color: crimson;
-}
-
-.search {
-  background-color: darkgreen;
-}
-
-.menu {
-  background-color: dimgrey;
-}
-
-.ad-box {
-  height: 100px;
-  background-color: darkmagenta;
-}
-
-main {
-  height: auto;
-  background-color: orange;
-}
-
-.covers {
-  height: auto;
-  background-color: blue;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 10px;
-}
-
-.cover {
-  background-color: sienna;
-}
-
-.latests {
-  height: auto;
-  background-color: green;
-  grid-template-columns: 100%;
-  grid-template-rows: 100px repeat(8, 150px);
-  grid-gap: 25px;
-}
-
-.latests-title {
-  background-color: silver;
-}
-
-.latest-article {
-  background-color: teal;
-}
-
-.deals {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: 100px repeat(3, 150px);
-  background-color: brown;
-  grid-gap: 20px;
-}
-
-.deals-titles {
-  background-color: turquoise;
-}
-
-.deal-item {
-  background-color: tomato;
-}
-
-.populars {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(8, 150px);
-  grid-gap: 20px;
-  background-color: cyan;
-}
-
-.popular {
-  background-color: wheat;
-}
-
-.popular-title {
-  background-color: yellowgreen;
-}
-
-.popular-body {
-  background-color: rebeccapurple;
-}
-
-.latest-deals {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: 150px repeat(8, 100px);
-  background-color: coral;
-  grid-gap: 22px;
-}
-
-.latest-deals-title {
-  background-color: red;
-}
-
-.latest-deals-item {
-  background-color: orchid;
-}
-
-footer {
-  height: 20%;
-  background-color: yellow;
-}
-
-.footer-links {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(2, 100px);
-
-  background-color: chartreuse;
-}
-
-.footer-icons {
-  background-color: palegoldenrod;
-}
-
-.footer-icon {
-  background-color: indianred;
-}
-
-.footer-menu {
-  background-color: purple;
-}
-
-.footer-menu li {
-  background-color: crimson;
-}
-
-.footer-legals {
-  background-color: cornflowerblue;
-}
-
-@media screen and (min-width: 768px) {
-}
+    .grid {
+      display: grid;
+    }
+    
+    .hide {
+      display: none;
+    }
+    
+    body {
+      background-color: red;
+      height: 100vh;
+      font-size: 30px;
+    }
+    
+    nav {
+      width: 100%;
+      height: auto;
+      grid-template-columns: 110px auto 70px 70px;
+      grid-template-rows: 100px;
+      background-color: yellow;
+    }
+    
+    .icon {
+      background-color: blueviolet;
+    }
+    
+    .nav-menu {
+      background-color: crimson;
+    }
+    
+    .search {
+      background-color: darkgreen;
+    }
+    
+    .menu {
+      background-color: dimgrey;
+    }
+    
+    .ad-box {
+      height: 100px;
+      background-color: darkmagenta;
+    }
+    
+    main {
+      height: auto;
+      background-color: orange;
+    }
+    
+    .covers {
+      height: auto;
+      background-color: blue;
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(3, 100px);
+      grid-gap: 10px;
+    }
+    
+    .cover {
+      background-color: sienna;
+    }
+    
+    .latests {
+      height: auto;
+      background-color: green;
+      grid-template-columns: 100%;
+      grid-template-rows: 100px repeat(8, 150px);
+      grid-gap: 25px;
+    }
+    
+    .latests-title {
+      background-color: silver;
+    }
+    
+    .latest-article {
+      background-color: teal;
+    }
+    
+    .deals {
+      height: auto;
+      grid-template-columns: 100%;
+      grid-template-rows: 100px repeat(3, 150px);
+      background-color: brown;
+      grid-gap: 20px;
+    }
+    
+    .deals-titles {
+      background-color: turquoise;
+    }
+    
+    .deal-item {
+      background-color: tomato;
+    }
+    
+    .populars {
+      height: auto;
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(8, 150px);
+      grid-gap: 20px;
+      background-color: cyan;
+    }
+    
+    .popular {
+      background-color: wheat;
+    }
+    
+    .popular-title {
+      background-color: yellowgreen;
+    }
+    
+    .popular-body {
+      background-color: rebeccapurple;
+    }
+    
+    .latest-deals {
+      height: auto;
+      grid-template-columns: 100%;
+      grid-template-rows: 150px repeat(8, 100px);
+      background-color: coral;
+      grid-gap: 22px;
+    }
+    
+    .latest-deals-title {
+      background-color: red;
+    }
+    
+    .latest-deals-item {
+      background-color: orchid;
+    }
+    
+    footer {
+      height: 20%;
+      background-color: yellow;
+    }
+    
+    .footer-links {
+      height: auto;
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(2, 100px);
+      background-color: chartreuse;
+    }
+    
+    .footer-icons {
+      background-color: palegoldenrod;
+    }
+    
+    .footer-icon {
+      background-color: indianred;
+    }
+    
+    .footer-menu {
+      background-color: purple;
+    }
+    
+    .footer-menu li {
+      background-color: crimson;
+    }
+    
+    .footer-legals {
+      background-color: cornflowerblue;
+    }
+    
+    @media screen and (min-width: 768px) {
+      nav {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 100px auto 100px;
+        grid-template-rows: 32px 48px;
+        background-color: yellow;
+        grid-template-areas: "icon nav-menu nav-menu" "icon menu search";
+      }
+      .icon {
+        grid-area: icon;
+      }
+      .nav-menu {
+        grid-area: nav-menu;
+        display: flex;
+      }
+      .menu {
+        grid-area: menu;
+      }
+      .search {
+        grid-area: search;
+      }
+      .menu ul {
+        display: flex;
+      }
+      .covers {
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 50% 50%;
+        height: 500px;
+        grid-template-areas: "main-cover cover1""main-cover cover2";
+        grid-gap: 20px;
+      }
+      .cover1 {
+        grid-area: cover1;
+        border: 1px solid #000;
+      }
+      .cover2 {
+        grid-area: cover2;
+        border: 1px solid #000;
+      }
+      .main-cover {
+        grid-area: main-cover;
+      }
+    }
