@@ -1,353 +1,340 @@
-.grid {
-  display: grid;
-}
-
-.hide {
-  display: none;
-}
-
-.flex {
-  display: flex;
-}
-
-body {
-  height: 100vh;
-}
-
-nav {
-  width: 100%;
-  height: 48px;
-  grid-template-columns: 106px auto 48px 48px;
-  grid-template-rows: 48px;
-  text-align: center;
-}
-
-.icon {
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
-}
-
-.icon a {
-}
-
-.icon img {
-  width: 66px;
-  height: 16px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.nav-menu {
-}
-
-.search {
-  border-left: 1px solid #777;
-  
-}
-
-.search i {
-  color: #777;
-  font-size: 16px;
-  position: relative;
-  top: 50%;
-  transform: rotate(90deg) translateX(-50%);
-}
-
-.menu {
-  border-left: 1px solid #777;
-  font-size: 18px;
-}
-
-.menu i {
-  color: #f42;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-main {
-  height: auto;
-  background-color: orange;
-}
-
-.covers {
-  height: auto;
-  background-color: blue;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(3, 160px);
-  grid-gap: 10px;
-  color: white;
-}
-
-.cover {
-  background-position: center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-.main-cover {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
-}
-
-.cover1 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
-}
-
-.cover2 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
-}
-
-.cover-header {
-  position: relative;
-  top: 100%;
-  transform: translateY(-100%);
-}
-
-.latests {
-  height: auto;
-  background-color: green;
-  grid-template-columns: 100%;
-  grid-template-rows: 100px repeat(8, 150px);
-  grid-gap: 25px;
-}
-
-.latests-title {
-  background-color: silver;
-}
-
-.latest-subtitle {
-  background-color: yellow;
-}
-
-.latest-article {
-  background-color: teal;
-}
-
-.deals {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: 100px repeat(3, 150px);
-  background-color: brown;
-  grid-gap: 20px;
-}
-
-.deals-titles {
-  background-color: turquoise;
-}
-
-.deal-item {
-  background-color: tomato;
-}
-
-.populars {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(8, 150px);
-  grid-gap: 20px;
-  background-color: cyan;
-}
-
-.popular {
-  background-color: wheat;
-}
-
-.popular-title {
-  background-color: yellowgreen;
-}
-
-.popular-body {
-  background-color: rebeccapurple;
-}
-
-.latest-deals {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: 150px repeat(8, 100px);
-  background-color: coral;
-  grid-gap: 22px;
-}
-
-.latest-deals-title {
-  background-color: blue;
-}
-
-.latest-deals-item {
-  background-color: orchid;
-}
-
-footer {
-  height: 20%;
-  background-color: yellow;
-}
-
-.footer-links {
-  height: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(2, 100px);
-  background-color: chartreuse;
-}
-
-.footer-icons {
-  background-color: palegoldenrod;
-}
-
-.footer-icon {
-  background-color: indianred;
-}
-
-.footer-menu {
-  background-color: purple;
-}
-
-.footer-menu li {
-  background-color: crimson;
-}
-
-.footer-legals {
-  background-color: cornflowerblue;
-}
-
-@media screen and (min-width: 768px) {
-  nav {
-    width: 100%;
-    height: auto;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: 32px 48px;
-    background-color: yellow;
-    grid-template-areas: "icon nav-menu nav-menu" "icon menu search";
-  }
-
-  .icon {
-    grid-area: icon;
-  }
-
-  .nav-menu {
-    grid-area: nav-menu;
-    display: flex;
-  }
-
-  .menu {
-    grid-area: menu;
-  }
-
-  .menu i {
-    display: none;
-  }
-
-  .search {
-    grid-area: search;
-  }
-
-  .menu ul {
-    display: flex;
-  }
-
-  .covers {
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 50% 50%;
-    height: 500px;
-    grid-template-areas: "main-cover cover1" "main-cover cover2";
-    grid-gap: 20px;
-  }
-
-  .cover1 {
-    grid-area: cover1;
-    border: 1px solid #000;
-  }
-
-  .cover2 {
-    grid-area: cover2;
-    border: 1px solid #000;
-  }
-
-  .main-cover {
-    grid-area: main-cover;
-  }
-
-  .latests {
-    height: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px repeat(3, 225px);
-  }
-
-  .latests-title {
-    grid-column: 1/-1;
-  }
-
-  .deals {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 300px;
-  }
-
-  .deals-titles {
-    grid-column: 1/-1;
-  }
-
-  .deals-subtitles {
-    display: flex;
-  }
-
-  .populars {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 200px);
-  }
-
-  .latest-deals {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px repeat(3, 200px);
-  }
-
-  .latest-deals-title {
-    grid-column: 1/-1;
-  }
-
-  .footer-legals {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  nav {
-    width: 100%;
-    height: auto;
-    grid-template-columns: 1fr 1fr 0.1fr;
-    grid-template-rows: 32px 48px;
-    background-color: yellow;
-    grid-template-areas: "nav-menu nav-menu nav-menu" "menu menu search";
-  }
-
-  .icon {
-    display: none;
-  }
-
-  .latests {
-    height: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px repeat(2, 225px);
-  }
-
-  .deals-titles {
-    display: flex;
-  }
-
-  .deals {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .deal-item.hide {
-    display: block;
-  }
-
-  .populars {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 200px);
-  }
-
-  .latest-deals {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px repeat(2, 200px);
-  }
-}
+      .grid {
+        display: grid;
+      }
+      
+      .hide {
+        display: none;
+      }
+      
+      .flex {
+        display: flex;
+      }
+      
+      body {
+        height: 100vh;
+      }
+      
+      nav {
+        width: 100%;
+        height: 48px;
+        grid-template-columns: 106px auto 48px 48px;
+        grid-template-rows: 48px;
+        text-align: center;
+      }
+      
+      .icon {
+        background: linear-gradient(to bottom right, #c09, #f42 85%);
+      }
+      
+      .icon a {}
+      
+      .icon img {
+        width: 66px;
+        height: 16px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+      .nav-menu {}
+      
+      .search {
+        border-left: 1px solid #777;
+      }
+      
+      .search i {
+        color: #777;
+        font-size: 16px;
+        position: relative;
+        top: 50%;
+        transform: rotate(90deg) translateX(-50%);
+      }
+      
+      .menu {
+        border-left: 1px solid #777;
+        font-size: 18px;
+      }
+      
+      .menu i {
+        color: #f42;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+      main {
+        height: auto;
+        background-color: orange;
+      }
+      
+      .covers {
+        height: auto;
+        background-color: blue;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 160px);
+        grid-gap: 10px;
+        color: white;
+      }
+      
+      .cover {
+        background-position: center;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+      }
+      
+      .main-cover {
+        background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
+      }
+      
+      .cover1 {
+        background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
+      }
+      
+      .cover2 {
+        background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
+      }
+      
+      .cover-header {
+        position: relative;
+        top: 100%;
+        transform: translateY(-100%);
+      }
+      
+      .latests {
+        height: auto;
+        background-color: green;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px repeat(8, 150px);
+        grid-gap: 25px;
+      }
+      
+      .latests-title {
+        background-color: silver;
+      }
+      
+      .latest-title {
+        padding: 35px 0;
+      }
+      
+      .latest-title a {
+        color: #f42;
+        text-decoration: none;
+        font-size: 28px;
+      }
+      
+      .latest-subtitle {
+        background-color: yellow;
+      }
+      
+      .latest-article {
+        background-color: teal;
+      }
+      
+      .news-img-1 {
+        height: 75px;
+        width: 75px;
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/goldmanapple-480x270.jpg");
+        background-position: center;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+      }
+      
+      .deals {
+        height: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px repeat(3, 150px);
+        background-color: brown;
+        grid-gap: 20px;
+      }
+      
+      .deals-titles {
+        background-color: turquoise;
+      }
+      
+      .deal-item {
+        background-color: tomato;
+      }
+      
+      .populars {
+        height: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8, 150px);
+        grid-gap: 20px;
+        background-color: cyan;
+      }
+      
+      .popular {
+        background-color: wheat;
+      }
+      
+      .popular-title {
+        background-color: yellowgreen;
+      }
+      
+      .popular-body {
+        background-color: rebeccapurple;
+      }
+      
+      .latest-deals {
+        height: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px repeat(8, 100px);
+        background-color: coral;
+        grid-gap: 22px;
+      }
+      
+      .latest-deals-title {
+        background-color: blue;
+      }
+      
+      .latest-deals-item {
+        background-color: orchid;
+      }
+      
+      footer {
+        height: 20%;
+        background-color: yellow;
+      }
+      
+      .footer-links {
+        height: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 100px);
+        background-color: chartreuse;
+      }
+      
+      .footer-icons {
+        background-color: palegoldenrod;
+      }
+      
+      .footer-icon {
+        background-color: indianred;
+      }
+      
+      .footer-menu {
+        background-color: purple;
+      }
+      
+      .footer-menu li {
+        background-color: crimson;
+      }
+      
+      .footer-legals {
+        background-color: cornflowerblue;
+      }
+      
+      @media screen and (min-width: 768px) {
+        nav {
+          width: 100%;
+          height: auto;
+          grid-template-columns: 100px auto 100px;
+          grid-template-rows: 32px 48px;
+          background-color: yellow;
+          grid-template-areas: "icon nav-menu nav-menu" "icon menu search";
+        }
+        .icon {
+          grid-area: icon;
+        }
+        .nav-menu {
+          grid-area: nav-menu;
+          display: flex;
+        }
+        .menu {
+          grid-area: menu;
+        }
+        .menu i {
+          display: none;
+        }
+        .search {
+          grid-area: search;
+        }
+        .menu ul {
+          display: flex;
+        }
+        .covers {
+          grid-template-columns: 70% 30%;
+          grid-template-rows: 50% 50%;
+          height: 500px;
+          grid-template-areas: "main-cover cover1" "main-cover cover2";
+          grid-gap: 20px;
+        }
+        .cover1 {
+          grid-area: cover1;
+          border: 1px solid #000;
+        }
+        .cover2 {
+          grid-area: cover2;
+          border: 1px solid #000;
+        }
+        .main-cover {
+          grid-area: main-cover;
+        }
+        .latests {
+          height: auto;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 50px repeat(3, 225px);
+        }
+        .latests-title {
+          grid-column: 1/-1;
+        }
+        .deals {
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 100px 300px;
+        }
+        .deals-titles {
+          grid-column: 1/-1;
+        }
+        .deals-subtitles {
+          display: flex;
+        }
+        .populars {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(4, 200px);
+        }
+        .latest-deals {
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 100px repeat(3, 200px);
+        }
+        .latest-deals-title {
+          grid-column: 1/-1;
+        }
+        .footer-legals {
+          display: flex;
+        }
+      }
+      
+      @media screen and (min-width: 1024px) {
+        nav {
+          width: 100%;
+          height: auto;
+          grid-template-columns: 1fr 1fr 0.1fr;
+          grid-template-rows: 32px 48px;
+          background-color: yellow;
+          grid-template-areas: "nav-menu nav-menu nav-menu" "menu menu search";
+        }
+        .icon {
+          display: none;
+        }
+        .latests {
+          height: auto;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-rows: 50px repeat(2, 225px);
+        }
+        .deals-titles {
+          display: flex;
+        }
+        .deals {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        .deal-item.hide {
+          display: block;
+        }
+        .populars {
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(3, 200px);
+        }
+        .latest-deals {
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: 100px repeat(2, 200px);
+        }
+      }
