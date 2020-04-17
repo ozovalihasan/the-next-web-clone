@@ -1,53 +1,121 @@
-@media screen and (max-width: 768px) {
   div {
     height: 20%;
   }
-
+  
   body {
     background-color: red;
     height: 100vh;
   }
-
+  
   nav {
     height: 20%;
     background-color: purple;
   }
-
+  
+  .icon {
+    background-color: blueviolet;
+  }
+  
+  .search {
+    background-color: darkgreen;
+  }
+  
+  .menu {
+    background-color: dimgrey;
+  }
+  
   main {
     height: 20%;
     background-color: orange;
   }
-
-  .cover {
+  
+  .covers {
     background-color: blue;
   }
-
-  .latest {
+  
+  .cover {
+    background-color: sienna;
+  }
+  
+  .latests {
     background-color: green;
   }
-
+  
+  .latests-title {
+    background-color: silver;
+  }
+  
+  .latest-article {
+    background-color: teal;
+  }
+  
   .deals {
     background-color: brown;
   }
-
+  
+  .deals-titles {
+    background-color: turquoise;
+  }
+  
+  .deal-item {
+    background-color: tomato;
+  }
+  
   .populars {
     background-color: cyan;
   }
-
+  
+  .popular {
+    background-color: wheat;
+  }
+  
+  .popular-title {
+    background-color: yellowgreen;
+  }
+  
+  .popular-body {
+    background-color: rebeccapurple;
+  }
+  
   .latest-deals {
     background-color: coral;
   }
-
+  
+  .latest-deals-title {
+    background-color: rgb(0, 255, 234);
+  }
+  
+  .latest-deals-item {
+    background-color: orchid;
+  }
+  
   footer {
     height: 20%;
     background-color: yellow;
   }
-
+  
   .footer-links {
     background-color: chartreuse;
   }
-
+  
+  .footer-icons {
+    background-color: palegoldenrod;
+  }
+  
+  .footer-icon {
+    background-color: indianred;
+  }
+  
+  .footer-menu {
+    background-color: whitesmoke;
+  }
+  
+  .footer-menu li {
+    background-color: crimson;
+  }
+  
   .footer-legals {
     background-color: cornflowerblue;
   }
-}
+  
+  @media screen and (min-width: 768px) {}
