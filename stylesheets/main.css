@@ -1,121 +1,163 @@
-  div {
-    height: 20%;
-  }
-  
-  body {
-    background-color: red;
-    height: 100vh;
-  }
-  
-  nav {
-    height: 20%;
-    background-color: purple;
-  }
-  
-  .icon {
-    background-color: blueviolet;
-  }
-  
-  .search {
-    background-color: darkgreen;
-  }
-  
-  .menu {
-    background-color: dimgrey;
-  }
-  
-  main {
-    height: 20%;
-    background-color: orange;
-  }
-  
-  .covers {
-    background-color: blue;
-  }
-  
-  .cover {
-    background-color: sienna;
-  }
-  
-  .latests {
-    background-color: green;
-  }
-  
-  .latests-title {
-    background-color: silver;
-  }
-  
-  .latest-article {
-    background-color: teal;
-  }
-  
-  .deals {
-    background-color: brown;
-  }
-  
-  .deals-titles {
-    background-color: turquoise;
-  }
-  
-  .deal-item {
-    background-color: tomato;
-  }
-  
-  .populars {
-    background-color: cyan;
-  }
-  
-  .popular {
-    background-color: wheat;
-  }
-  
-  .popular-title {
-    background-color: yellowgreen;
-  }
-  
-  .popular-body {
-    background-color: rebeccapurple;
-  }
-  
-  .latest-deals {
-    background-color: coral;
-  }
-  
-  .latest-deals-title {
-    background-color: rgb(0, 255, 234);
-  }
-  
-  .latest-deals-item {
-    background-color: orchid;
-  }
-  
-  footer {
-    height: 20%;
-    background-color: yellow;
-  }
-  
-  .footer-links {
-    background-color: chartreuse;
-  }
-  
-  .footer-icons {
-    background-color: palegoldenrod;
-  }
-  
-  .footer-icon {
-    background-color: indianred;
-  }
-  
-  .footer-menu {
-    background-color: whitesmoke;
-  }
-  
-  .footer-menu li {
-    background-color: crimson;
-  }
-  
-  .footer-legals {
-    background-color: cornflowerblue;
-  }
-  
-  @media screen and (min-width: 768px) {}
+.grid {
+  display: grid;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background-color: red;
+  height: 100vh;
+  font-size: 30px;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  grid-template-columns: 110px auto 70px 70px;
+  grid-template-rows: 100px;
+  background-color: yellow;
+}
+
+.icon {
+  background-color: blueviolet;
+}
+
+.nav-menu {
+  background-color: crimson;
+}
+
+.search {
+  background-color: darkgreen;
+}
+
+.menu {
+  background-color: dimgrey;
+}
+
+.ad-box {
+  height: 100px;
+  background-color: darkmagenta;
+}
+
+main {
+  height: auto;
+  background-color: orange;
+}
+
+.covers {
+  height: auto;
+  background-color: blue;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+}
+
+.cover {
+  background-color: sienna;
+}
+
+.latests {
+  height: auto;
+  background-color: green;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px repeat(8, 150px);
+  grid-gap: 25px;
+}
+
+.latests-title {
+  background-color: silver;
+}
+
+.latest-article {
+  background-color: teal;
+}
+
+.deals {
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px repeat(3, 150px);
+  background-color: brown;
+  grid-gap: 20px;
+}
+
+.deals-titles {
+  background-color: turquoise;
+}
+
+.deal-item {
+  background-color: tomato;
+}
+
+.populars {
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(8, 150px);
+  grid-gap: 20px;
+  background-color: cyan;
+}
+
+.popular {
+  background-color: wheat;
+}
+
+.popular-title {
+  background-color: yellowgreen;
+}
+
+.popular-body {
+  background-color: rebeccapurple;
+}
+
+.latest-deals {
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 150px repeat(8, 100px);
+  background-color: coral;
+  grid-gap: 22px;
+}
+
+.latest-deals-title {
+  background-color: red;
+}
+
+.latest-deals-item {
+  background-color: orchid;
+}
+
+footer {
+  height: 20%;
+  background-color: yellow;
+}
+
+.footer-links {
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, 100px);
+
+  background-color: chartreuse;
+}
+
+.footer-icons {
+  background-color: palegoldenrod;
+}
+
+.footer-icon {
+  background-color: indianred;
+}
+
+.footer-menu {
+  background-color: purple;
+}
+
+.footer-menu li {
+  background-color: crimson;
+}
+
+.footer-legals {
+  background-color: cornflowerblue;
+}
+
+@media screen and (min-width: 768px) {
+}
