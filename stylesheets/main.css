@@ -127,7 +127,7 @@ main {
 }
 
 .latest-deals-title {
-  background-color: red;
+  background-color: blue;
 }
 
 .latest-deals-item {
@@ -239,5 +239,18 @@ footer {
   .populars {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 200px);
+  }
+
+  .latest-deals {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px repeat(3, 200px);
+  }
+
+  .latest-deals-title {
+    grid-column: 1/-1;
+  }
+
+  .footer-legals {
+    display: flex;
   }
 }
