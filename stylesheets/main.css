@@ -21,6 +21,7 @@ a {
 }
 
 body {
+  overflow-x: hidden;
   height: 100vh;
 }
 
@@ -76,7 +77,6 @@ nav {
 
 main {
   height: auto;
-  background-color: orange;
 }
 
 .covers {
@@ -197,7 +197,7 @@ main {
   background-color: turquoise;
 }
 
-.deals-subtitles p{
+.deals-subtitles p {
   color: #f42;
   font-size: 14px;
   margin: 10px;
@@ -215,9 +215,9 @@ main {
 }
 
 .deal-item img {
-height: 50px;
-width: 50px;
-margin: 10px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
 }
 
 .deal-item {
@@ -263,21 +263,145 @@ margin: 10px;
 .populars {
   height: auto;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(8, 150px);
+  grid-template-rows: repeat(8, auto);
   grid-gap: 20px;
-  background-color: cyan;
 }
 
 .popular {
-  background-color: wheat;
 }
+
+.popular-cover {
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+  padding-top: 75%;
+  color: #fff;
+  background-position: 50%;
+}
+
+.popular-cover > * {
+  font-size: 14px;
+  padding: 3px 15px;
+  line-height: 1.1;
+}
+
+.popular-cover a {
+  padding-right: 10px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.popular-cover ul {
+  opacity: 0.6;
+}
+
+.popular-cover h2 {
+  font-size: 20px;
+}
+
+.popular1 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_fce025fa-368x276.png");
+}
+
+.popular2 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-368x276.png");
+}
+
+.popular3 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+}
+.popular4 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+}
+.popular5 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+}
+.popular6 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+}
+.popular7 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+}
+.popular8 {
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+}
+
+
 
 .popular-title {
   background-color: yellowgreen;
 }
 
-.popular-body {
-  background-color: rebeccapurple;
+.popular-info {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff4f2;
+  color: #f42;
+  padding: 0 10px 0;
+  margin-top: 5px;
+}
+
+.popular-info h1 {
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.popular-info-back {
+  float: right;
+  height: 96px;
+  width: 96px;
+  background-size: auto 100%;
+}
+
+.popular-info-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Google-Meet.jpg");
+}
+
+.popular-info-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max.png");
+}
+
+.popular-info-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+}
+
+.popular-info-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+}
+.popular-info-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+}
+.popular-info-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+}
+.popular-info-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+}
+.popular-info-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+}
+
+.popular-extras li {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  line-height: 19.5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.popular-extras li::before {
+  content: "•";
+  padding-right: 5px;
+  color: #f42;
 }
 
 .latest-deals {
