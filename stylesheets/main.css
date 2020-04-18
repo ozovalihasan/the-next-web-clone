@@ -37,8 +37,7 @@ nav {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
-.icon a {
-}
+.icon a {}
 
 .icon img {
   width: 66px;
@@ -48,8 +47,7 @@ nav {
   transform: translateY(-50%);
 }
 
-.nav-menu {
-}
+.nav-menu {}
 
 .search {
   border-left: 1px solid #777;
@@ -77,6 +75,7 @@ nav {
 
 main {
   height: auto;
+  padding: 0 10px;
 }
 
 .covers {
@@ -95,18 +94,15 @@ main {
 }
 
 .main-cover {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
 }
 
 .cover1 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
 }
 
 .cover2 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
 }
 
 .cover-header {
@@ -166,21 +162,27 @@ main {
 .news-item-2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/sale_27702_primary_image_wide-540x270.jpg");
 }
+
 .news-item-3 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/DDAudiobook-516x270.jpg");
 }
+
 .news-item-4 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-516x270.png");
 }
+
 .news-item-5 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-516x270.png");
 }
+
 .news-item-6 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-516x270.png");
 }
+
 .news-item-7 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/How-Uber-ghost-rides-are-linked-to-online-money-laundering-516x270.png");
 }
+
 .news-item-8 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-514x270.jpg");
 }
@@ -267,8 +269,7 @@ main {
   grid-gap: 20px;
 }
 
-.popular {
-}
+.popular {}
 
 .popular-cover {
   background-size: cover;
@@ -279,7 +280,7 @@ main {
   background-position: 50%;
 }
 
-.popular-cover > * {
+.popular-cover>* {
   font-size: 14px;
   padding: 3px 15px;
   line-height: 1.1;
@@ -299,42 +300,43 @@ main {
   font-size: 20px;
 }
 
+.popular-title {
+  color: #f42;
+  font-size: 28px;
+  padding: 10px 0;
+}
+
 .popular1 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_fce025fa-368x276.png");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_fce025fa-368x276.png");
 }
 
 .popular2 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-368x276.png");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-368x276.png");
 }
 
 .popular3 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
 }
+
 .popular4 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-16-368x276.jpg");
 }
+
 .popular5 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Featured-TNW-Photo-368x276.png");
 }
+
 .popular6 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/goldmanapple-368x276.jpg");
 }
+
 .popular7 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
 }
+
 .popular8 {
-  background-image: linear-gradient(to top, #000, transparent),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/lowevsjoe-368x276.jpg");
 }
-
-
 
 .popular-title {
   background-color: yellowgreen;
@@ -375,19 +377,23 @@ main {
 }
 
 .popular-info-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule.jpg");
 }
+
 .popular-info-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125.jpg");
 }
+
 .popular-info-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator.png");
 }
+
 .popular-info-7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced.png");
 }
+
 .popular-info-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/design-sprint-remote.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Spirited-Away-796x415.jpg");
 }
 
 .popular-extras li {
@@ -506,7 +512,6 @@ footer {
   .latests-title {
     grid-column: 1/-1;
   }
-
   .deals {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px 300px;
