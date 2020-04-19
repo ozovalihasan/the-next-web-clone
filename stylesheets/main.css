@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .grid {
   display: grid;
 }
@@ -37,7 +39,8 @@ nav {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
-.icon a {}
+.icon a {
+}
 
 .icon img {
   width: 66px;
@@ -47,7 +50,8 @@ nav {
   transform: translateY(-50%);
 }
 
-.nav-menu {}
+.nav-menu {
+}
 
 .search {
   border-left: 1px solid #777;
@@ -94,15 +98,18 @@ main {
 }
 
 .main-cover {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
 }
 
 .cover1 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
 }
 
 .cover2 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
 }
 
 .cover-header {
@@ -278,7 +285,7 @@ main {
   background-position: 50%;
 }
 
-.popular-cover>* {
+.popular-cover > * {
   font-size: 14px;
   padding: 3px 15px;
   line-height: 1.1;
@@ -305,35 +312,43 @@ main {
 }
 
 .popular1 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_fce025fa-368x276.png");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_fce025fa-368x276.png");
 }
 
 .popular2 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-368x276.png");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-368x276.png");
 }
 
 .popular3 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
 }
 
 .popular4 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-16-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-16-368x276.jpg");
 }
 
 .popular5 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Featured-TNW-Photo-368x276.png");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Featured-TNW-Photo-368x276.png");
 }
 
 .popular6 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/goldmanapple-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/goldmanapple-368x276.jpg");
 }
 
 .popular7 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
 }
 
 .popular8 {
-  background-image: linear-gradient(to top, #000, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/lowevsjoe-368x276.jpg");
+  background-image: linear-gradient(to top, #000, transparent),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/lowevsjoe-368x276.jpg");
 }
 
 .popular-title {
@@ -419,7 +434,8 @@ main {
   margin: 24px 0;
 }
 
-.latest-deals-item {}
+.latest-deals-item {
+}
 
 .latest-deals-title a {
   font-size: 28px;
@@ -482,7 +498,7 @@ main {
 
 .crossed {
   text-decoration: line-through;
-  font-size: 12px
+  font-size: 12px;
 }
 
 footer {
@@ -491,30 +507,107 @@ footer {
 }
 
 .footer-links {
+  padding: 0 0 30px ;
   height: auto;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(2, 100px);
-  background-color: chartreuse;
+  grid-template-rows: repeat(2, auto);
+  background-color: #131313;
 }
 
 .footer-icons {
-  background-color: palegoldenrod;
+  padding: 20px 0;
+  width: auto;
+  margin: 0 auto;
+}
+
+.icon-container {
+  height: 40px;
+  width: 40px;
+  background-color: #333333;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid 1px #333333;
+
+}
+
+.icon-container:hover {
+
+  background-color: transparent;
 }
 
 .footer-icon {
-  background-color: indianred;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+}
+
+
+
+.footer-icon-1 {
+  background-position: -272px -272px;
+}
+
+.footer-icon-2 {
+  background-position: -1024px -1024px;
+}
+.footer-icon-3 {
+  background-position: -1280px -1280px;
+}
+.footer-icon-4 {
+  background-position: -416px -416px;
+}
+.footer-icon-5 {
+  background-position: -672px -672px;
+}
+.footer-icon-6 {
+  background-position: -816px -816px;
+}
+.footer-icon-7 {
+  background-position: -576px -576px;
 }
 
 .footer-menu {
-  background-color: purple;
+  width: auto;
+  margin: 0 auto;
 }
 
-.footer-menu li {
-  background-color: crimson;
+.footer-menu a {
+  font-family: 'Raleway', sans-serif;;
+  color: #aaa;
+  letter-spacing: 0 ;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 5px;
 }
+
+.footer-menu a:hover {
+  color: #fff;
+}
+
 
 .footer-legals {
-  background-color: cornflowerblue;
+  background-color: #000;
+  color: #aaa;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  padding: 30px 0;
+}
+
+.footer-legals img {
+  height: 9px;
+  width: auto;
+}
+
+.footer-legals span {
+  color: #f42;
 }
 
 @media screen and (min-width: 768px) {
