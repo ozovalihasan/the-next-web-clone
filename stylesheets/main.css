@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 .grid {
   display: grid;
+}
+
+.margin-lr {
+  margin: 0 10px;
 }
 
 .hide {
@@ -18,13 +22,15 @@
 
 a {
   text-decoration: none;
-  color: #000;
+  color: inherit;
   font-weight: bold;
 }
 
 body {
   overflow-x: hidden;
   height: 100vh;
+  font-family: "Raleway", sans-serif;
+  
 }
 
 nav {
@@ -84,11 +90,10 @@ main {
 
 .covers {
   height: auto;
-  background-color: blue;
   grid-template-columns: 100%;
   grid-template-rows: repeat(3, 160px);
-  grid-gap: 10px;
   color: white;
+  grid-gap: 10px;
 }
 
 .cover {
@@ -113,21 +118,51 @@ main {
 }
 
 .cover-header {
+  padding: 10px;
   position: relative;
   top: 100%;
   transform: translateY(-100%);
 }
 
-.latests {
-  height: auto;
-  background-color: green;
-  grid-template-columns: 100%;
-  grid-template-rows: 100px repeat(8, 150px);
-  grid-gap: 25px;
+.cover-header h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 7px 0;
+  line-height: 14px;
 }
 
-.latests-title {
-  background-color: silver;
+.cover-header h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.cover-header ul {
+  padding: 10px 0;
+  font-size: 12px;
+  opacity: 0.6;
+  align-items: center;
+  vertical-align: baseline;
+}
+
+.cover-header li {
+  padding-right: 10px;
+}
+
+.cover-header a {
+  color: #fff;
+}
+
+.cover-header i {
+  font-size: 125%;
+}
+
+.latests {
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px repeat(8, auto);
+  grid-gap: 10px;
 }
 
 .latest-title {
@@ -140,6 +175,10 @@ main {
   font-size: 28px;
 }
 
+.latest-title a:hover {
+  color: #000;
+}
+
 .latest-subtitle {
   background-color: yellow;
 }
@@ -149,17 +188,13 @@ main {
 }
 
 .news-img {
+  float: left;
   height: 75px;
   width: 75px;
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
   margin-right: 10px;
-}
-
-.latest-info {
-  font-weight: normal;
-  margin-top: 5px;
 }
 
 .news-item-1 {
@@ -194,16 +229,31 @@ main {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-514x270.jpg");
 }
 
+.news-heading:hover {
+  color: #f42;
+  border-bottom: solid #f42 0.1px;
+}
+
+.latest-info {
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.latest-info a {
+  color: #aaa;
+  font-weight: normal;
+}
+
 .deals {
   height: auto;
   grid-template-columns: 100%;
   grid-template-rows: auto repeat(3, auto);
-  background-color: brown;
-  grid-gap: 20px;
 }
 
 .deals-titles {
-  background-color: turquoise;
+  padding: 20px 0;
 }
 
 .deals-subtitles p {
@@ -270,10 +320,10 @@ main {
 }
 
 .populars {
+  padding-top: 50px;
   height: auto;
   grid-template-columns: 100%;
   grid-template-rows: repeat(8, auto);
-  grid-gap: 20px;
 }
 
 .popular-cover {
@@ -291,7 +341,7 @@ main {
   line-height: 1.1;
 }
 
-.popular-cover a {
+.popular-cover ul a {
   padding-right: 10px;
   color: #fff;
   opacity: 0.6;
@@ -303,12 +353,16 @@ main {
 
 .popular-cover h2 {
   font-size: 20px;
+  color: #fff;
+  padding-left: 15px;
 }
 
 .popular-title {
   color: #f42;
   font-size: 28px;
   padding: 10px 0;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .popular1 {
@@ -349,10 +403,6 @@ main {
 .popular8 {
   background-image: linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/lowevsjoe-368x276.jpg");
-}
-
-.popular-title {
-  background-color: yellowgreen;
 }
 
 .popular-info {
@@ -420,9 +470,13 @@ main {
   content: "•";
   padding-right: 5px;
   color: #f42;
+  height: 4px;
+  width: 4px;
 }
 
 .latest-deals {
+  padding-top: 30px;
+
   height: auto;
   grid-template-columns: 100%;
   grid-template-rows: auto repeat(8, 100px);
@@ -433,9 +487,6 @@ main {
   margin: 24px 0;
 }
 
-.latest-deals-item {
-}
-
 .latest-deals-title a {
   font-size: 28px;
   color: #f42;
@@ -444,6 +495,10 @@ main {
 .latest-deals-title a:nth-child(2) {
   font-size: 14px;
   color: #f42;
+}
+
+.latest-deals a:hover {
+  color: #000;
 }
 
 .deals-img {
@@ -492,6 +547,7 @@ main {
 
 .story-price {
   margin: 14px;
+  font-size: 14px;
   color: #555;
 }
 
@@ -506,7 +562,7 @@ footer {
 }
 
 .footer-links {
-  padding: 0 0 30px ;
+  padding: 0 0 30px;
   height: auto;
   grid-template-columns: 100%;
   grid-template-rows: repeat(2, auto);
@@ -514,7 +570,7 @@ footer {
 }
 
 .footer-icons {
-  padding: 20px 0;
+  padding: 40px 0 20px;
   width: auto;
   margin: 0 auto;
 }
@@ -526,11 +582,9 @@ footer {
   border-radius: 50%;
   display: inline-block;
   border: solid 1px #333333;
-
 }
 
 .icon-container:hover {
-
   background-color: transparent;
 }
 
@@ -544,8 +598,6 @@ footer {
   width: 16px;
   background-repeat: no-repeat;
 }
-
-
 
 .footer-icon-1 {
   background-position: -272px -272px;
@@ -576,9 +628,9 @@ footer {
 }
 
 .footer-menu a {
-  font-family: 'Raleway', sans-serif;;
+  font-family: "Raleway", sans-serif;
   color: #aaa;
-  letter-spacing: 0 ;
+  letter-spacing: 0;
   font-size: 13px;
   text-transform: uppercase;
   display: inline-block;
@@ -588,7 +640,6 @@ footer {
 .footer-menu a:hover {
   color: #fff;
 }
-
 
 .footer-legals {
   background-color: #000;
@@ -642,7 +693,6 @@ footer {
     grid-template-rows: 50% 50%;
     height: 500px;
     grid-template-areas: "main-cover cover1" "main-cover cover2";
-    grid-gap: 20px;
   }
   .cover1 {
     grid-area: cover1;
