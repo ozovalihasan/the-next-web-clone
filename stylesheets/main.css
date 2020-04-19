@@ -279,7 +279,7 @@ main {
 .popular-cover {
   background-size: cover;
   height: 100%;
-  width: 100vw;
+  width: auto;
   padding-top: 75%;
   color: #fff;
   background-position: 50%;
