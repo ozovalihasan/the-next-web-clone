@@ -760,6 +760,11 @@ footer {
     background-size: cover;
   }
 
+  .main-cover .cover-header h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+
   .cover1 {
     grid-area: cover1;
     border: 1px solid #000;
@@ -823,7 +828,7 @@ footer {
   }
 
   .popular-cover {
-    height: auto;
+    height: 150px;
     padding-right: 10px;
   }
 
@@ -877,37 +882,27 @@ footer {
   }
 
   .main-cover {
-    background:
-      linear-gradient(to top, #000, transparent),
-      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat,
-      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png"),
-      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
-    background-size: inherit, 100px 100px, 100% 100%, inherit;
-    background-position: inherit, 20px 20px, auto auto, inherit;
+      background: linear-gradient(to top, #000, transparent)
+      ,url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat ,
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png"); 
+      background-size: auto ,100% ,auto   ;
   }
 
   .logo-cover {
-    /* background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
-        position: relative;
-        z-index: 5;
-        display: block;
-        height: 20px;
-        width: 50%;
-        left: 15px;
-        top: 25px; */
+    background:url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+    position: relative;
+    top:30px;
+    left: 30px;
+    height: 100px;
+    width: 40%;
+    display: block;
+    
   }
 
-  .cover-gradient {
-    /* background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png");
-     background-size: cover;
-     bottom: 4px;
-     left: 4px;
-     mix-blend-mode: lighten;
-     position: absolute;
-     right: 4px;
-     top: 4px;
-     display: block; */
-  }
+  .cover-header-all {
+    transform: translateY(-200%);
+  } 
+  
 
   .latests {
     height: auto;
