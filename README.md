@@ -14,7 +14,7 @@ In this Microverse project, we made use of float, grid and flex CSS principles t
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ozovalihasan/the-next-web-clone/767ada0b5fcf8c85662a393b5f08273e4c89cf1f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ozovalihasan/the-next-web-clone/c039675f839a1314da5c417a7c42266666afc505/index.html)
 
 ## Getting Started
 
