@@ -105,17 +105,20 @@ main {
 }
 
 .main-cover {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
 }
 
 .cover1 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/y-combinator-796x417.png");
 }
 
 .cover2 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-iphone-plus-iphone-max-796x417.png");
 }
 
@@ -337,7 +340,7 @@ main {
   background-position: 50%;
 }
 
-.popular-cover>* {
+.popular-cover > * {
   font-size: 14px;
   padding: 3px 15px;
   line-height: 1.1;
@@ -368,42 +371,50 @@ main {
 }
 
 .popular1 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_fce025fa-368x276.png");
 }
 
 .popular2 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-368x276.png");
 }
 
 .popular3 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Faceunlock-368x276.jpg");
 }
 
 .popular4 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-16-368x276.jpg");
 }
 
 .popular5 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Featured-TNW-Photo-368x276.png");
 }
 
 .popular6 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/goldmanapple-368x276.jpg");
 }
 
 .popular7 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
 }
 
 .popular8 {
-  background-image: linear-gradient(to top, #000, transparent),
+  background-image:
+    linear-gradient(to top, #000, transparent),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/lowevsjoe-368x276.jpg");
 }
 
@@ -866,14 +877,13 @@ footer {
   }
 
   .main-cover {
-    background: linear-gradient(to top, #000, transparent),
+    background:
+      linear-gradient(to top, #000, transparent),
       url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat,
       url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png"),
       url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
     background-size: inherit, 100px 100px, 100% 100%, inherit;
     background-position: inherit, 20px 20px, auto auto, inherit;
-
-
   }
 
   .logo-cover {
