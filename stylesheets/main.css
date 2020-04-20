@@ -34,6 +34,8 @@ body {
   overflow-x: hidden;
   height: 100vh;
   font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  color: #000;
 }
 
 nav {
