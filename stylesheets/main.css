@@ -159,6 +159,55 @@ main {
   color: #fff;
 }
 
+.latest-deals-title a {
+  font-size: 28px;
+  color: #f42;
+}
+
+.latest-title a {
+  color: #f42;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.latest-info a {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.footer-menu a {
+  font-family: "Raleway", sans-serif;
+  color: #aaa;
+  letter-spacing: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.menu a {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.popular-cover ul a {
+  padding-right: 10px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+.footer-menu a:hover {
+  color: #fff;
+}
+
+.latest-title a:hover {
+  color: #000;
+}
+
 .cover-header i {
   font-size: 125%;
 }
@@ -172,16 +221,6 @@ main {
 
 .latest-title {
   padding: 35px 0;
-}
-
-.latest-title a {
-  color: #f42;
-  text-decoration: none;
-  font-size: 28px;
-}
-
-.latest-title a:hover {
-  color: #000;
 }
 
 .latest-subtitle {
@@ -246,11 +285,6 @@ main {
   color: #aaa;
 }
 
-.latest-info a {
-  color: #aaa;
-  font-weight: normal;
-}
-
 .deals {
   height: auto;
   grid-template-columns: 100%;
@@ -299,6 +333,12 @@ main {
   background-color: #ffebe7;
 }
 
+.card p {
+  margin: 20px 10px;
+  color: #777;
+  font-size: 13px;
+}
+
 .deal-item-info p:nth-child(1) {
   font-weight: bold;
   padding-top: 10px;
@@ -309,12 +349,6 @@ main {
   color: #777;
   padding-bottom: 10px;
   font-size: 11px;
-}
-
-.card p {
-  margin: 20px 10px;
-  color: #777;
-  font-size: 13px;
 }
 
 .byline {
@@ -344,12 +378,6 @@ main {
   font-size: 14px;
   padding: 3px 15px;
   line-height: 1.1;
-}
-
-.popular-cover ul a {
-  padding-right: 10px;
-  color: #fff;
-  opacity: 0.6;
 }
 
 .popular-cover ul {
@@ -499,11 +527,6 @@ main {
   margin: 24px 0;
 }
 
-.latest-deals-title a {
-  font-size: 28px;
-  color: #f42;
-}
-
 .latest-deals-title a:nth-child(2) {
   font-size: 14px;
   color: #f42;
@@ -644,20 +667,6 @@ footer {
   margin: 0 auto;
 }
 
-.footer-menu a {
-  font-family: "Raleway", sans-serif;
-  color: #aaa;
-  letter-spacing: 0;
-  font-size: 13px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.footer-menu a:hover {
-  color: #fff;
-}
-
 .footer-legals {
   background-color: #000;
   color: #aaa;
@@ -703,15 +712,6 @@ footer {
 
   .menu li {
     margin: 10px 5px;
-  }
-
-  .menu a {
-    font-weight: normal;
-    font-size: 14px;
-  }
-
-  .menu a:hover {
-    color: #000;
   }
 
   .menu i {
@@ -760,7 +760,7 @@ footer {
     background-size: cover;
   }
 
-  .main-cover .cover-header h2{
+  .main-cover .cover-header h2 {
     font-size: 40px;
     line-height: 40px;
   }
@@ -816,6 +816,10 @@ footer {
     display: flex;
   }
 
+   .deals-sub-laptop {
+     display: none;
+   }
+
   .deals-bar::after {
     content: "|";
     margin-left: 20px;
@@ -841,8 +845,6 @@ footer {
   .latest-deals-title {
     grid-column: 1/-1;
   }
-
-  .latest-deals-item {}
 
   .deals-img {
     float: none;
@@ -882,27 +884,26 @@ footer {
   }
 
   .main-cover {
-      background: linear-gradient(to top, #000, transparent)
-      ,url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat ,
-      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png"); 
-      background-size: auto ,100% ,auto   ;
+    background:
+      linear-gradient(to top, #000, transparent),
+      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat,
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
+    background-size: auto, 100%, auto;
   }
 
   .logo-cover {
-    background:url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
     position: relative;
-    top:30px;
+    top: 30px;
     left: 30px;
     height: 100px;
     width: 40%;
     display: block;
-    
   }
 
   .cover-header-all {
     transform: translateY(-200%);
-  } 
-  
+  }
 
   .latests {
     height: auto;
