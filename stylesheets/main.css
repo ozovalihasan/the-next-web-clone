@@ -886,9 +886,9 @@ footer {
   .main-cover {
     background:
       linear-gradient(to top, #000, transparent),
-      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat,
-      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
-    background-size: auto, 100%, auto;
+      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") 100%,
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png") no-repeat 50% 50%;
+    background-size: auto, 100%, cover;
   }
 
   .logo-cover {
