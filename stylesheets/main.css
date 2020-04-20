@@ -42,6 +42,10 @@ nav {
   grid-template-columns: 106px auto 48px 48px;
   grid-template-rows: 48px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
 }
 
 .icon {
@@ -91,6 +95,7 @@ main {
   grid-template-rows: repeat(3, 160px);
   color: white;
   grid-gap: 10px;
+  margin-top: 48px;
 }
 
 .cover {
@@ -332,7 +337,7 @@ main {
   background-position: 50%;
 }
 
-.popular-cover > * {
+.popular-cover>* {
   font-size: 14px;
   padding: 3px 15px;
   line-height: 1.1;
@@ -667,7 +672,7 @@ footer {
     height: auto;
     grid-template-columns: 106px auto 48px;
     grid-template-rows: 32px 48px;
-    grid-template-areas: "icon nav-menu nav-menu" "icon menu search";
+    grid-template-areas: "icon nav-menu nav-menu""icon menu search";
   }
 
   .icon {
@@ -735,7 +740,8 @@ footer {
     grid-template-columns: 70% 30%;
     grid-template-rows: 50% 50%;
     height: auto;
-    grid-template-areas: "main-cover cover1" "main-cover cover2";
+    grid-template-areas: "main-cover cover1""main-cover cover2";
+    margin-top: 80px;
   }
 
   .cover {
@@ -820,16 +826,14 @@ footer {
     grid-column: 1/-1;
   }
 
-  .latest-deals-item {
-
-  }
+  .latest-deals-item {}
 
   .deals-img {
     float: none;
     display: block;
     width: auto;
     height: 20vw;
-    margin:0;
+    margin: 0;
   }
 
   .story-title {
@@ -850,38 +854,94 @@ footer {
     grid-template-columns: 1fr 1fr 0.1fr;
     grid-template-rows: 32px 48px;
     background-color: yellow;
-    grid-template-areas: "nav-menu nav-menu nav-menu" "menu menu search";
+    grid-template-areas: "nav-menu nav-menu nav-menu""menu menu search";
   }
 
   .icon {
     display: none;
   }
 
+  .covers {
+    grid-template-rows: repeat(2, 26vw);
+  }
+
+  .main-cover {
+    background: linear-gradient(to top, #000, transparent),
+      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat,
+      url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png"),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/LOVE-LETTER-TO-header-image-LG-B9-OLED-TV-796x417.png");
+    background-size: inherit, 100px 100px, 100% 100%, inherit;
+    background-position: inherit, 20px 20px, auto auto, inherit;
+
+
+  }
+
+  .logo-cover {
+    /* background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+        position: relative;
+        z-index: 5;
+        display: block;
+        height: 20px;
+        width: 50%;
+        left: 15px;
+        top: 25px; */
+  }
+
+  .cover-gradient {
+    /* background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png");
+     background-size: cover;
+     bottom: 4px;
+     left: 4px;
+     mix-blend-mode: lighten;
+     position: absolute;
+     right: 4px;
+     top: 4px;
+     display: block; */
+  }
+
   .latests {
     height: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px repeat(2, 225px);
+    grid-template-rows: auto repeat(2, 225px);
+  }
+
+  .news-heading {
+    line-height: 20px;
+  }
+
+  .news-img {
+    margin-bottom: 5px;
   }
 
   .deals-titles {
     display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .deals-subtitles {
+    display: none;
+  }
+
+  .deals-sub-laptop {
+    display: flex;
+  }
+
+  .deal-item-section {
+    display: block;
   }
 
   .deals {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .deal-item.hide {
-    display: block;
-  }
-
   .populars {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(3, auto);
   }
 
   .latest-deals {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px repeat(2, 200px);
+    grid-template-rows: 100px repeat(2, auto);
   }
 }
