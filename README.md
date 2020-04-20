@@ -14,7 +14,7 @@ In this Microverse project, we made use of float, grid and flex CSS principles t
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/krys2fa/smashing-magazine-grey/2a4a0969d63b07dab8f5e1e2217fe702e4c79967/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ozovalihasan/the-next-web-clone/a1ebb363491ebe1e63c90ecadfa60a4a515293d8/index.html)
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@krys2fa](https://github.com/krys2fa)
 - Twitter: [@krys2fa](https://twitter.com/krys2fa)
-- Linkedin: [linkedin](https://www.linkedin.com/in/christopher-amanor-81a7b93b/)
+- Linkedin: [Christopher Amanor](https://www.linkedin.com/in/christopher-amanor-81a7b93b/)
 
 👤 **Hasan Özovalı**
 
