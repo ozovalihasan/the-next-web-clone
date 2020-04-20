@@ -818,9 +818,9 @@ footer {
     display: flex;
   }
 
-   .deals-sub-laptop {
-     display: none;
-   }
+  .deals-sub-laptop {
+    display: none;
+  }
 
   .deals-bar::after {
     content: "|";
